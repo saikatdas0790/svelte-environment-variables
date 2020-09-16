@@ -31,7 +31,7 @@ There are numerous ways to add environment variables to your runtime. One of the
 ```json
 {
   "scripts": {
-    "dev": "env-cmd npm run dev"
+    "env:dev": "env-cmd npm run dev"
   }
 }
 ```
