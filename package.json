@@ -1,6 +1,6 @@
 {
   "name": "svelte-environment-variables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module helps you manage environment variables in your Rollup/Webpack bundled app. Examples are of Svelte and Sapper app",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/saikatdas0790/svelte-environment-variables/issues"
   },
-  "homepage": "https://github.com/saikatdas0790/svelte-environment-variables#readme"
+  "homepage": "https://github.com/saikatdas0790/svelte-environment-variables#readme",
+  "keywords": [
+    "environment",
+    "variables",
+    "svelte",
+    "sapper",
+    "rollup",
+    "webpack"
+  ]
 }
