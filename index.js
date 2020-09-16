@@ -1,4 +1,4 @@
-export default (
+module.exports = (
   filterPrefix = "SVELTE_APP_",
   targetPrefix = "process.env.",
   excluded = [],
