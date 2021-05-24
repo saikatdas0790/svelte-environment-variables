@@ -5,7 +5,7 @@ module.exports = (
 ) => {
   const FRONTEND_APP_ENV_VARS = {};
   for (let key in process.env) {
-    if (key.includes(filterPrefix) && !excluded.includes(key))
+    if (key.startsWith(filterPrefix) && !excluded.includes(key))
       FRONTEND_APP_ENV_VARS[targetPrefix + key] = "'" + process.env[key] + "'";
   }
   return FRONTEND_APP_ENV_VARS;
