@@ -13,7 +13,7 @@ Steps to set this up are:
 ### 1. Install
 
 ```
-npm install svelte-environment-variables
+npm install svelte-environment-variables --save-dev
 ```
 
 OR
